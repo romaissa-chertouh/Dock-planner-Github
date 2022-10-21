@@ -1,0 +1,26 @@
+.navigation{
+  background-color: white;
+  height: 70px;
+  max-width: 975px; /*(TOTAL - LES PADDINGS) */
+  display: flex;
+  justify-content: space-between;
+  flex-grow: 1; /*ici activer ( au lieu 0) pour prendre la max possible*/
+  align-items:center;
+  margin: 0 auto;
+}
+
+#nav-logo{
+  height:33px ;
+  width: auto;
+}
+
+
+.nav-items{
+  list-style: none;
+  display: flex;
+}
+
+.nav-link{
+  color: #ababab;
+  text-decoration: none;
+}
