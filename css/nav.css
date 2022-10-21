@@ -7,11 +7,12 @@
   flex-grow: 1; /*ici activer ( au lieu 0) pour prendre la max possible*/
   align-items:center;
   margin: 0 auto;
+  padding: 0px 20px;
 }
 
 #nav-logo{
   height:33px ;
-  width: auto;
+  width: 268px;
 }
 
 
@@ -19,8 +20,12 @@
   list-style: none;
   display: flex;
 }
+.nav-item{
+  padding:0 0.6em;
+}
 
 .nav-link{
   color: #ababab;
   text-decoration: none;
+  font-size: 15px;
 }
